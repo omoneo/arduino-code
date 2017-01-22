@@ -17,9 +17,13 @@ void loop() {
     Serial.println(val);
     Serial.println(val2);
     //UP 1
-    if (val> verdead+30){pos=1; Serial.println(pos);}
+    if (val> verdead+30){
+        //move both motors forward
+    }
     //DOWN 2
-    if (val< verdead-30){pos=2; Serial.println(pos);}
+    if (val< verdead-30){
+        //move both motors backwards
+    }
     //RIGHT 3
     if (val2> hozdead+30){pos=4; Serial.println(pos);}
     //LEFT 4
